@@ -4,28 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Samuel's Websites</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-mobile.css" />
   </head>
   <script type="text/javascript">
-	if (screen.width <= 799) {
-	document.location = "mobile.html";
+	if (screen.width >= 800) {
+	document.location = "index.html";
 	}
 	</script>
   <body>
-    <div id="banner">
-      <div id="sidebar">
-		<div id="logo" ></div>
-        <h3>Examples of my work</h3>
-        <a href="#" class="link"
-          ><div class="button">A website for an imaginary potter</div></a
-        >
-        <a href="#" class="link"
-          ><div class="button">A website for an imaginary music creator</div>
-        </a>
-        <a href="#" class="link">
-          <div class="button">A website for an imaginary woodworker</div></a
-        >
-      </div>
+	<div id="logo" ></div>
       <div id="banner-text-box">
         <h1>Hi, I'm Samuel!</h1>
         <h3>
@@ -34,7 +21,18 @@
           businesses who want minimalistic but stylish websites. Don't hesitate to contact me if you are in need of a website.</h3>
         </h3>
       </div>
-    </div>
+	<div id="link-area">
+	  <h3>Examples of my work</h3>
+	  <a href="#" class="link"
+		><div class="button">A website for an imaginary potter</div></a
+	  >
+	  <a href="#" class="link"
+		><div class="button">A website for an imaginary music creator</div>
+	  </a>
+	  <a href="#" class="link">
+		<div class="button">A website for an imaginary woodworker</div></a
+	  >
+	</div>
 	<div id="contact-box">
 		<h2>CONTACT INFORMATION</h2>
 		<h3>
