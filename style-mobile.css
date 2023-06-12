@@ -9,6 +9,9 @@ body {
 }
 a {
   background-color: rgb(27, 27, 27);
+  margin: 0.5rem;
+  margin-left: calc(10% - 0.8rem);
+  width: 80%;
   text-decoration: none;
 }
 a:hover {
@@ -25,13 +28,10 @@ h2 {
 }
 .button {
   padding: 0.8rem;
-  width: calc(100% - 1.6rem);
   height: min-content;
   color: rgb(255, 255, 255);
 }
-.link {
-  margin: 0.5rem;
-}
+
 #sidebar h3 {
   text-align: center;
 }

@@ -53,10 +53,13 @@ p {
 #sidebar {
   background-color: rgba(0, 0, 0, 0.5);
   width: 18vw;
-  height: calc(100vh - 2rem);
+  min-width: 16rem;
+  height: fit-content;
+  min-height: calc(100vh - 2rem);
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  padding-bottom: 2rem;
   align-content: center;
   text-align: center;
   word-wrap: break-word;
