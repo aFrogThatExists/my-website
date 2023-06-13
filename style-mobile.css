@@ -10,7 +10,7 @@ body {
 a {
   background-color: rgb(27, 27, 27);
   margin: 0.5rem;
-  margin-left: calc(10% - 0.8rem);
+  margin-left: 10%;
   width: 80%;
   text-decoration: none;
 }
@@ -32,9 +32,6 @@ h2 {
   color: rgb(255, 255, 255);
 }
 
-#sidebar h3 {
-  text-align: center;
-}
 #logo {
   width: 100vw;
   aspect-ratio: 1000/750;
@@ -47,6 +44,7 @@ h2 {
   width: calc(100vw - 2rem);
   display: flex;
   flex-direction: column;
+  align-content: center;
   padding: 1rem;
   padding-bottom: 3rem;
 }
