@@ -66,6 +66,7 @@ p {
 }
 #contact-box {
   margin-top: auto;
+  word-wrap: break-word;
 }
 #banner-text-box {
   margin: 5rem;
