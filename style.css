@@ -64,6 +64,9 @@ p {
   text-align: center;
   word-wrap: break-word;
 }
+#contact-box {
+  margin-top: auto;
+}
 #banner-text-box {
   margin: 5rem;
   margin-top: 30vh;
