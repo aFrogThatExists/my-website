@@ -1,0 +1,81 @@
+body {
+	background-color: rgb(38, 38, 41);
+	color: rgb(240, 241, 243);
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0%;
+	font-size: 1.4rem;
+}
+
+h1 {
+	text-align: center;
+	font-size: 4rem;
+	font-family: Arial Black;
+	margin: 2rem;
+}
+
+h3 {
+	margin-top: 4rem;
+	text-align: center;
+	font-size: 1.9rem;
+	font-family: Arial Black;
+	margin: 2rem;
+}
+
+.btn {
+	background-color: rgb(56, 56, 61);
+	padding: 0.8rem;
+	margin: 0.8rem;
+	margin-left: 25%;
+	border: none;
+	color: rgb(255, 255, 255);
+	font-size: 1.4rem;
+	width: 50%;
+}
+
+a {
+
+	text-decoration: none;
+}
+
+.btn:hover {
+
+	background-color: rgb(27, 27, 29);
+}
+
+.contact-option {
+	margin: 1rem;
+	text-align: center;
+}
+
+#contact-background {
+	background-color: rgb(49, 49, 51);
+	margin-top: 4rem;
+	padding: 1rem;
+	padding-top: 0.3rem;
+}
+
+#previous-commissions {
+
+	text-align: center;
+}
+
+#introduction {
+	width: 50%;
+	margin-left: 25vw;
+	text-align: center;
+}
+
+#contact-area {
+	display: flex;
+	justify-content: center;
+	word-wrap: break-word;
+}
+
+#logo {
+	margin-top: 5vh;
+	margin-left: 35vw;
+	width: 30vw;
+	height: 30vw;
+	border-radius: 50%;
+
+}

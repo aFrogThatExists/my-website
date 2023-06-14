@@ -1,0 +1,47 @@
+#banner_area {
+	justify-content: center;
+}
+
+#banner_text_box {
+	margin: 10%;
+	max-height: 80%;
+}
+
+.small_img {
+	height: 70vw;
+	width: 70vw;
+}
+
+.big_img {
+	height: 70vw;
+	width: 70vw;
+}
+
+.small_img_div {
+	margin-top: 3rem;
+	height: auto;
+	width: 80vw;
+	padding: 5vw;
+	margin: 0vw;
+	text-align: center;
+	font-size: 1.4rem;
+}
+.big_img_div {
+	margin-top: 3rem;
+	height: auto;
+	width: 80vw;
+	text-align: center;
+	padding: 5vw;
+	margin: 0vw;
+	font-size: 1.4rem;
+}
+.chapter {
+	margin-top: -3rem;
+	flex-direction: column;
+	padding: 5vw;
+	width: 90vw;
+}
+
+.contact-option {
+	text-align: center;
+}

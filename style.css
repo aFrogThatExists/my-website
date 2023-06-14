@@ -23,7 +23,7 @@ h1 {
 }
 h2 {
   font-size: 1.6rem;
-  margin-bottom: 0.7rem;
+  margin-bottom: 1.5rem;
 }
 h3 {
   font-size: 1.6rem;
@@ -67,6 +67,7 @@ p {
 #contact-box {
   margin-top: auto;
   word-wrap: break-word;
+  text-transform: uppercase;
 }
 #banner-text-box {
   margin: 5rem;

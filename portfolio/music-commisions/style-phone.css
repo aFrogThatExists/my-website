@@ -1,0 +1,30 @@
+
+#introduction {
+	width: 100%;
+	text-align: center;
+	font-size: 1.4rem;
+	margin: 1rem;
+}
+#logo {
+	margin-top: 5vh;
+	margin-left: 17vw;
+	width: 60vw;
+	height: 60vw;
+	
+}
+h1 {
+	text-align: center;
+	font-size: 2.5rem;
+	font-family: Arial Black;
+}
+.btn{
+	
+	width: auto;
+	margin-left: 0.8rem;
+}
+#contact-area {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	flex-direction: column;
+}
