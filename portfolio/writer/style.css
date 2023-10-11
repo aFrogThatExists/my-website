@@ -6,9 +6,10 @@
 body {
   font-family: "Shadows Into Light";
   margin: 0;
-  background-color: rgb(240, 240, 240);
+  background-color: white;
 }
 h1 {
+  font-size: 2rem;
   margin: 0;
 }
 a {
@@ -36,7 +37,7 @@ a {
   margin-left: auto;
 }
 .links a {
-  padding: 0.5rem;
+  padding-right: 1.5rem;
 }
 .banner {
   display: flex;
@@ -44,4 +45,24 @@ a {
   align-items: center;
 }
 .banner-textbox {
+  font-size: 1.4rem;
+  margin-top: 6rem;
+  width: 45rem;
+  max-width: 80vw;
+}
+
+.my-life {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+}
+.my-life .text-container {
+  width: 40vw;
+  height: fit-content;
+}
+.my-life img {
+  width: 15rem;
+  min-width: 20vw;
 }
