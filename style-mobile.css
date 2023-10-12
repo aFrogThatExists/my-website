@@ -10,9 +10,8 @@ body {
 a {
   background-color: rgb(27, 27, 27);
   margin: 0.5rem;
-  margin-left: 10%;
-  width: 80%;
   text-decoration: none;
+  color: white;
 }
 a:hover {
   background-color: rgb(43, 43, 43);
@@ -64,6 +63,13 @@ h2 {
   word-wrap: break-word;
   text-transform: uppercase;
   padding-bottom: 2rem;
+}
+
+#contact-box a {
+  background-color: transparent;
+}
+#contact-box a:hover {
+  text-decoration: underline;
 }
 @media screen and (min-width: 560px) {
   #logo {
