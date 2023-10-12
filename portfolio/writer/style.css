@@ -1,68 +1,113 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Shadows+Into+Light&display=swap");
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Shadows Into Light";
-  margin: 0;
-  background-color: white;
+    font-family: "Shadows Into Light";
+    margin: 0;
+    background-color: white;
 }
+
 h1 {
-  font-size: 2rem;
-  margin: 0;
+    font-size: 2rem;
+    margin: 0;
 }
+
 a {
-  color: white;
+    color: white;
 }
+
 .banner-container {
-  background-image: url(banner-large.png);
-  background-size: cover;
-  background-position: center center;
-  color: white;
-  min-height: 70vh;
-  height: fit-content;
+    background-image: url(banner-large.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    min-height: 70vh;
+    height: fit-content;
 }
+
 .header {
-  display: flex;
-  padding: 1rem;
-  padding-left: 1.5rem;
+    display: flex;
+    padding: 1rem;
+    padding-left: 1.5rem;
 }
+
 .links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.3rem;
-  margin-right: 0;
-  margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-right: 0;
+    margin-left: auto;
 }
+
 .links a {
-  padding-right: 1.5rem;
+    padding-right: 1.5rem;
 }
+
 .banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .banner-textbox {
-  font-size: 1.4rem;
-  margin-top: 6rem;
-  width: 45rem;
-  max-width: 80vw;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    width: 45rem;
+    max-width: 80vw;
 }
 
 .my-life {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
 }
+
 .my-life .text-container {
-  width: 40vw;
-  height: fit-content;
+    width: 40vw;
+    height: fit-content;
 }
+
 .my-life img {
-  width: 15rem;
-  min-width: 20vw;
+    width: 15rem;
+    min-width: 20vw;
+}
+
+.my-works-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: rgb(226, 230, 224);
+}
+
+.my-works {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.book-small {
+    width: 12vw;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.book-large {
+    width: 16vw;
+    height: 26vw;
+    object-fit: cover;
+}
+
+.footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+    background-color: rgb(226, 230, 224);
 }
