@@ -13,7 +13,9 @@ h1 {
   font-size: 2rem;
   margin: 0;
 }
-
+h3 {
+  font-size: 1.5rem;
+}
 a {
   color: white;
 }
@@ -81,29 +83,48 @@ a {
   padding-top: 1rem;
   padding-bottom: 1rem;
   text-align: center;
-  background-color: rgb(226, 230, 224);
+  background-color: rgb(233, 235, 233);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.my-works {
+.my-works-right,
+.my-works-left {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  padding-bottom: 2rem;
+  padding: 2rem;
+  width: fit-content;
+  margin-bottom: 5rem;
+  background-color: rgb(210, 212, 210);
+  box-shadow: 0.5rem 0.5rem 0.2rem rgba(0, 0, 0, 0.3);
+  border-radius: 0.25rem;
+}
+.my-works-left {
+  margin-right: 22vw;
 }
 
-.book-small {
-  width: 12vw;
-  height: 20vw;
+.my-works-right {
+  margin-left: 22vw;
+}
+.book-text {
+  font-size: 1.2rem;
+  width: 15vw;
+}
+.my-works-left .book-text {
+  margin-left: 3vw;
+}
+.my-works-right .book-text {
+  margin-right: 3vw;
+}
+.book-img {
+  width: 14vw;
+  height: 21vw;
   object-fit: cover;
 }
-
-.book-large {
-  width: 16vw;
-  height: 26vw;
-  object-fit: cover;
-}
-
 .footer {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
