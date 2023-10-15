@@ -101,7 +101,7 @@ h1 {
 }
 
 #banner_area {
-  background-image: url("banner.jpg");
+  background-image: url("banner_large.jpg");
   background-size: cover;
   height: 30rem;
   width: 100%;

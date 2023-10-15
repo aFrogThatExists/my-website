@@ -3,20 +3,22 @@ body {
   color: white;
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("banner.jpg");
+  background-image: url("banner_small.jpg");
   background-size: cover;
   font-weight: bold;
 }
 a {
-  background-color: rgb(27, 27, 27);
   margin: 0.5rem;
   text-decoration: none;
   color: white;
 }
-a:hover {
+a .button {
+  background-color: rgb(35, 35, 35);
+}
+a:hover .button {
   background-color: rgb(43, 43, 43);
 }
-a:active {
+a:active .button {
   background-color: rgb(51, 51, 51);
 }
 h1 {
@@ -62,12 +64,8 @@ h2 {
   background-color: rgba(0, 0, 0, 0.6);
   word-wrap: break-word;
   text-transform: uppercase;
-  padding-bottom: 2rem;
 }
 
-#contact-box a {
-  background-color: transparent;
-}
 #contact-box a:hover {
   text-decoration: underline;
 }

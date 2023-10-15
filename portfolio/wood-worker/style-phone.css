@@ -1,69 +1,70 @@
 #banner_area {
-    justify-content: center;
+  justify-content: center;
+  background-image: url("banner_small.jpg");
 }
 
 #banner_text_box {
-    margin: 10%;
-    max-height: 80%;
+  margin: 10%;
+  max-height: 80%;
 }
 
 .small_img {
-    height: 70vw;
-    width: 70vw;
+  height: 70vw;
+  width: 70vw;
 }
 
 .big_img {
-    height: 70vw;
-    width: 70vw;
+  height: 70vw;
+  width: 70vw;
 }
 
 .small_img_div {
-    margin-top: 3rem;
-    height: auto;
-    width: 80vw;
-    padding: 5vw;
-    margin: 0vw;
-    text-align: center;
-    font-size: 1.4rem;
+  margin-top: 3rem;
+  height: auto;
+  width: 80vw;
+  padding: 5vw;
+  margin: 0vw;
+  text-align: center;
+  font-size: 1.4rem;
 }
 .big_img_div {
-    margin-top: 3rem;
-    height: auto;
-    width: 80vw;
-    text-align: center;
-    padding: 5vw;
-    margin: 0vw;
-    font-size: 1.4rem;
+  margin-top: 3rem;
+  height: auto;
+  width: 80vw;
+  text-align: center;
+  padding: 5vw;
+  margin: 0vw;
+  font-size: 1.4rem;
 }
 
 #works {
-    align-items: center;
-    margin-top: -3rem;
-    flex-direction: column;
-    padding: 5vw;
-    width: 90vw;
+  align-items: center;
+  margin-top: -3rem;
+  flex-direction: column;
+  padding: 5vw;
+  width: 90vw;
 }
 
 #contact {
-    margin-top: -3rem;
-    flex-direction: column;
-    padding: 5vw;
-    width: 90vw;
+  margin-top: -3rem;
+  flex-direction: column;
+  padding: 5vw;
+  width: 90vw;
 }
 .contact-option {
-    text-align: center;
-    padding-top: 1rem;
+  text-align: center;
+  padding-top: 1rem;
 }
 .about-container {
-    padding: 1rem;
-    padding-top: 1px;
-    padding-bottom: 2rem;
-    width: calc(100% - 2rem);
-    background-color: rgb(248, 252, 253);
+  padding: 1rem;
+  padding-top: 1px;
+  padding-bottom: 2rem;
+  width: calc(100% - 2rem);
+  background-color: rgb(248, 252, 253);
 }
 .about {
-    width: 90%;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-left: 5%;
+  width: 90%;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-left: 5%;
 }

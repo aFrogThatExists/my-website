@@ -46,8 +46,11 @@ a {
 
 .links a {
   padding-right: 1.5rem;
+  transition: font-size 0.3s;
 }
-
+.links a:hover {
+  font-size: 1.2em;
+}
 .banner {
   display: flex;
   justify-content: center;
@@ -64,7 +67,7 @@ a {
 .my-life {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   padding: 3rem;
 }
@@ -79,7 +82,7 @@ a {
   min-width: 20vw;
 }
 
-.my-works-container {
+.works-container {
   padding-top: 1rem;
   padding-bottom: 1rem;
   text-align: center;
@@ -89,36 +92,29 @@ a {
   justify-content: center;
   align-items: center;
 }
-
-.my-works-right,
-.my-works-left {
+.works {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.work {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 2rem;
   width: fit-content;
-  margin-bottom: 5rem;
+  margin: 2rem;
   background-color: rgb(210, 212, 210);
   box-shadow: 0.5rem 0.5rem 0.2rem rgba(0, 0, 0, 0.3);
   border-radius: 0.25rem;
 }
-.my-works-left {
-  margin-right: 22vw;
-}
 
-.my-works-right {
-  margin-left: 22vw;
-}
 .book-text {
+  padding-left: 1rem;
   font-size: 1.2rem;
   width: 15vw;
-}
-.my-works-left .book-text {
-  margin-left: 3vw;
-}
-.my-works-right .book-text {
-  margin-right: 3vw;
 }
 .book-img {
   width: 14vw;
@@ -129,6 +125,40 @@ a {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 0.3rem;
-  padding-top: 0.3rem;
-  background-color: rgb(226, 230, 224);
+  padding-top: 2.3rem;
+  background-color: rgb(233, 235, 233);
+}
+@media only screen and (max-width: 600px) {
+  .banner-container {
+    background-image: url(banner-small.png);
+  }
+  .banner-textbox {
+    margin-top: 0;
+  }
+  .my-life {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .my-life .text-container {
+    width: fit-content;
+    height: fit-content;
+  }
+  .my-life img {
+    min-width: 80vw;
+  }
+  .works {
+    flex-direction: column;
+  }
+  .work {
+    flex-direction: column;
+  }
+  .book-text {
+    width: fit-content;
+  }
+  .book-img {
+    width: 50vw;
+    height: 75vw;
+    padding-bottom: 2rem;
+  }
 }
