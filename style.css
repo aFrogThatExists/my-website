@@ -1,21 +1,21 @@
 body {
-  background-color: rgb(192, 194, 199);
-  color: white;
-  margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-  background-image: url("banner_large.jpg");
-  background-size: cover;
-  font-weight: bold;
+    background-color: rgb(192, 194, 199);
+    color: white;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("banner_large.jpg");
+    background-size: cover;
+    font-weight: bold;
 }
 
 a {
-  text-decoration: none;
-  font-size: 1.1rem;
-  color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
 }
 
 a .button {
-  background-color: rgb(27, 27, 27);
+    background-color: rgb(27, 27, 27);
 }
 
 a:hover .button {
@@ -25,10 +25,11 @@ a:hover .button {
 }
 
 a:active {
-  background-color: rgb(51, 51, 51);
+    background-color: rgb(51, 51, 51);
 }
+
 h1 {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 h2 {
@@ -37,11 +38,11 @@ h2 {
 }
 
 h3 {
-  font-size: 1.6rem;
+    font-size: 1.6rem;
 }
 
 p {
-  font-size: 1.1rem;
+    font-size: 1.1rem;
 }
 
 .button {
@@ -55,11 +56,11 @@ p {
 }
 
 .link {
-  margin: 0.5rem;
+    margin: 0.5rem;
 }
 
 #sidebar h3 {
-  text-align: center;
+    text-align: center;
 }
 
 #logo {
@@ -84,10 +85,11 @@ p {
 }
 
 #contact-box {
-  margin-top: auto;
-  word-wrap: break-word;
-  text-transform: uppercase;
+    margin-top: auto;
+    word-wrap: break-word;
+    text-transform: uppercase;
 }
+
 #banner-text-box {
   margin-left: 8rem;
   margin-top: 30vh;
@@ -96,19 +98,19 @@ p {
 }
 
 #banner {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 @media screen and (max-width: 900px) {
-  h3 {
-    font-size: 1.3rem;
-  }
-  h2 {
-    font-size: 1.5rem;
-  }
-  h1 {
-    font-size: 2.1rem;
-  }
+    h3 {
+        font-size: 1.3rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h1 {
+        font-size: 2.1rem;
+    }
 }
