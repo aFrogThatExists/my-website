@@ -10,7 +10,7 @@ body {
 
 a {
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: white;
 }
 
@@ -49,7 +49,7 @@ p {
   box-sizing: border-box;
   padding: 1.5rem 1.1rem;
   width: 100%;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   height: min-content;
   color: rgb(255, 255, 255);
   transition: padding 200ms;
@@ -65,7 +65,7 @@ p {
 
 #logo {
   width: 100%;
-  padding: 0 2.5rem;
+  padding: 0 2rem;
   box-sizing: border-box;
 }
 
@@ -91,8 +91,8 @@ p {
 }
 
 #banner-text-box {
-  margin-left: 8rem;
-  margin-top: 30vh;
+  margin-left: 10vh;
+  margin-top: 22vh;
   line-height: 1.4;
   width: 40%;
 }
