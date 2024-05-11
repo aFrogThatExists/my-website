@@ -29,7 +29,7 @@ a:active {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 h2 {
@@ -38,7 +38,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 p {
@@ -47,9 +47,9 @@ p {
 
 .button {
   box-sizing: border-box;
-  padding: 1.5rem 1.1rem;
+  padding: 1.3rem 0.8rem;
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 1rem;
   height: min-content;
   color: rgb(255, 255, 255);
   transition: padding 200ms;
@@ -92,7 +92,7 @@ p {
 
 #banner-text-box {
   margin-left: 10vh;
-  margin-top: 22vh;
+  margin-top: 21vh;
   line-height: 1.4;
   width: 40%;
 }
@@ -111,6 +111,6 @@ p {
         font-size: 1.5rem;
     }
     h1 {
-        font-size: 2.1rem;
+        font-size: 1.9rem;
     }
 }
