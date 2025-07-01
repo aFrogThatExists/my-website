@@ -6,8 +6,6 @@ body {
   background-image: url("banner_small.jpg");
   background-size: cover;
   font-weight: bold;
-  min-height: 99vh;
-  position: relative;
 }
 a {
   margin: 0.5rem;
@@ -36,10 +34,9 @@ h2 {
 }
 
 #logo {
-  width: 100%;
-  padding: 2rem 3rem;
+  width: calc(100vw - 2rem);
   height: auto;
-  box-sizing: border-box;
+  padding: 1rem;
 }
 #link-area {
   text-align: center;
@@ -54,7 +51,6 @@ h2 {
   margin: 2rem;
   text-align: center;
   line-height: 1.3;
-  font-size: 1.2rem;
 }
 #banner {
   width: 100%;
@@ -65,12 +61,10 @@ h2 {
 #contact-box {
   text-align: center;
   padding: 1rem;
-  font-size: 1.1rem;
+  font-size: 0.9em;
   background-color: rgba(0, 0, 0, 0.6);
   word-wrap: break-word;
   text-transform: uppercase;
-  margin-top: 5rem;
-
 }
 
 #contact-box a:hover {
